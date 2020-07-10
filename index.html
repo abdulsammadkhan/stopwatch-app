@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1><u>Stopwatch</u></h1>
+        <br><br><br><br>
+
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4" id="one">
+                <h1>Min</h1>
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4" id="two">
+                <h1>Sec</h1>
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4" id="three">
+                <h1>Msec</h1>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4" id="hour">
+                <h1>00</h1>
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4" id="min">
+                <h1>00</h1>
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4" id="sec">
+                <h1>00</h1>
+
+            </div>
+
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4" id="start">
+                <button type="button" class="btn btn-success" onclick="start()" id="btn">Start</button>
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4" id="pause">
+                <button type="button" class="btn btn-success" onclick="pause()">Pause</button>
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4" id="reset">
+                <button type="button" class="btn btn-success" onclick="reset()">Reset</button>
+
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>

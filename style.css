@@ -1,0 +1,9 @@
+#one,#two,#three,#hour,#min,#sec{
+    
+    background-color: black;
+    color: white;
+    font-size: 36px;
+}
+.container{
+    text-align: center;
+}
